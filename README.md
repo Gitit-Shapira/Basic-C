@@ -6,8 +6,7 @@
 בקישור [כאן](https://youtu.be/pakQGkmGDRE)
 
 ## התקנת Clion
-סרטון הסבר איך להתקין סביבת עבודה בקישור [כאן](https://us06web.zoom.us/rec/share/wtoKGsnFkUwQvrTQtZ4rI-vhXqLf-CPAOPBpPEY9E9psEnnP5g_BaEwFk1jQaeMk.-E5xZeU_6rcErHJw 
-Passcode: MC19%^Pp)
+סרטון הסבר איך להתקין סביבת עבודה בקישור [כאן](https://us06web.zoom.us/rec/share/wtoKGsnFkUwQvrTQtZ4rI-vhXqLf-CPAOPBpPEY9E9psEnnP5g_BaEwFk1jQaeMk)
 
 ## הקובץ הראשון שלכם
 שימו לב שיש כאן את הקובץ 
