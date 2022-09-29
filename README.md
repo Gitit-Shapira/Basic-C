@@ -64,3 +64,7 @@ _11:30 - 12:00_
 _12:00 - 13:00_
 סיכום
 
+
+## קישור קבוע לזום
+
+https://us06web.zoom.us/j/89677026038?pwd=dTdJSXVoOUxyR09jQU9xQTlVT3d1Zz09
