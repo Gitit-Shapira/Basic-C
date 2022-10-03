@@ -34,3 +34,31 @@
      מודולו %
     printf("%d", 13 % 5);
 ```
+## אופרטורים
+
+```c
+   x = 4;
+    y = 12.4;
+    x = x + 1; // x = 5
+    printf("%d\n", x);
+    x++; // x = 6
+    printf("%d\n", x);
+    ++x; // x = 7
+    printf("%d\n", x);
+    y = x++; // y = x; x = x + 1;
+    printf("y = %.1f\n", y);
+    printf("%d\n", x);
+    y = ++x; // x = x + 1; y = x;
+    printf("y = %.1f\n", y);
+    printf("%d\n", x);
+
+    x = x +1;
+    x++;
+    x = x + 2;
+    x += 2;
+    x *= 3; // x = x * 3
+
+    x = 1;
+    x = x++ * ++x - x; //
+    printf("x = %d\n",x);
+```
