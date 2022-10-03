@@ -62,3 +62,18 @@
     x = x++ * ++x - x; //
     printf("x = %d\n",x);
 ```
+
+## קליטת קלט מהמשתמש
+
+```c
+    printf("%d\n",x);
+    printf("please choose an number\n");
+    scanf("%c",&c);
+    scanf("%d%f", &x, &y);
+    printf("x = %d\n%f\n",x,y);
+    putchar(c);
+    putchar('\n');
+    x = c;
+    printf("x = %d\n",x);
+    printf("%d %c", c, c);
+```
