@@ -93,8 +93,4 @@
     putchar(c); // printf("%c", c);
     scanf("%f", &y);
     printf("%f", y);
-    int x,y;
-    printf("2 num\n");
-    scanf("%d%d", &x,&y);
-    printf("x + y = %d\nx * y = %d\nx % y = %d", x + y, x * y, x %y);
 ```
