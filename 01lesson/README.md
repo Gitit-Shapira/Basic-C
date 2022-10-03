@@ -1,5 +1,7 @@
 # שיעור ראשון
 
+[הקלטת השיעור](https://us06web.zoom.us/rec/share/sGJR2nQ5BgXyjY5QvtNtn9o0ZZmgL_vQ_jMhA7nNn30sjhIGReTz7LSfCgqT2rbx.nTLerkDWXMtsux7v)
+
 ## הגדרת משתנים, אתחול, השמה והדפסה
 
 ```c
