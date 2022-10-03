@@ -79,3 +79,22 @@
 ```
 נשים לב לבעיות אפשריות. מבקשים מהמשתמש מספר אבל מצפים לתו. לאחר קליטת תו קולטים מספרים, כאשר התו קולט רק תו אחד (ראינו ש71 מתורגם לc = 7, x = 1)
 
+## ניקוי החוצץ Buffer
+```c
+    scanf("%d:%d", &x, &number);
+    printf("x = %d\n", x);
+    printf("x = %d\n", number);
+    fflush(stdin);
+    scanf("%c", &c);
+    putchar(c);
+    putchar('\n');
+    fflush(stdin); // clear buffer
+    c = getchar(); // scanf("%c",&c);
+    putchar(c); // printf("%c", c);
+    scanf("%f", &y);
+    printf("%f", y);
+    int x,y;
+    printf("2 num\n");
+    scanf("%d%d", &x,&y);
+    printf("x + y = %d\nx * y = %d\nx % y = %d", x + y, x * y, x %y);
+```
