@@ -66,5 +66,5 @@ _10:00 - 14:00_
 
 https://us06web.zoom.us/j/89677026038?pwd=dTdJSXVoOUxyR09jQU9xQTlVT3d1Zz09
 
-## ספר הקןרס
+## ספר הקורס
 ללמוד C - יואב נתיב
