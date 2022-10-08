@@ -65,3 +65,6 @@ _10:00 - 14:00_
 ## קישור קבוע לזום
 
 https://us06web.zoom.us/j/89677026038?pwd=dTdJSXVoOUxyR09jQU9xQTlVT3d1Zz09
+
+## ספר הקןרס
+ללמוד C - יואב נתיב
