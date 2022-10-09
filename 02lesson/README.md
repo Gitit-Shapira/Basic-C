@@ -116,3 +116,29 @@
         printf("%d\n", c);
 ```
 
+## תנאים בסולמות if-else if
+
+```c
+    if(a > 3)
+        printf("a is bigger than 3\n");
+    else if(b % 2 == 0)
+        printf("b is even and a <= 3\n");
+    else if(c != 12)
+        printf("c != 12 and b is odd\n");
+    else
+        printf("a <= 3 b is odd c = 12");
+```
+
+## תנאי בשורה :?
+
+```c
+    c = a > b ? a : b;
+    /*
+     if ( a > b)
+        c = a
+    else
+        c = b
+     */
+    printf("%c\n", a != b ? 'y' : 'n');
+    printf("%d", c);
+```
