@@ -199,13 +199,13 @@
 ```c
   for (int i = 0; i < 10; ++i) {
         printf("%d, ", i);
-    }
+   }
 
-    int x;
-    scanf("%d",&x);
-    for (int i = 0; i < x; ++i) {
-        printf("%d\n",x);
-    }
+   int x;
+   scanf("%d",&x);
+   for (int i = 0; i < x; ++i) {
+       printf("%d\n",x);
+   }
 ```
 
 כל לולאת for אפשר לכתוב כלולאת while אך לא להיפך.
