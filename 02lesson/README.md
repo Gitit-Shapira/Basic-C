@@ -4,8 +4,7 @@
 
 ## תנאים
 
-'''c
-
+```c
     int num;
     printf("number?\n");
     scanf("%d", &num);
@@ -22,5 +21,5 @@
         printf("might be 20\n");
     }
     printf("GoodBye..\n");
-'''
+```
 
