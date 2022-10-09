@@ -153,3 +153,59 @@
     }
     printf("the end");
 ```
+הדפסה 5 פעמים
+
+```c
+    int number = 0;
+
+    while (number < 1 || number > 10) {
+        printf("choose a number bw 1 - 10");
+        scanf("%d", &number);
+
+    }
+    printf("the num is %d", number);
+```
+
+לוודא שהקלט בין 1 ל10
+
+```c
+    int stars;
+    printf("how many stars?\n");
+    scanf("%d",&stars);
+
+    if(stars < 0){
+        printf("ERROR!");
+    }
+    while (stars > 0){
+        putchar('*');
+        stars--;
+    }
+```
+
+הדפסת מספר כוכביות כמספר שהתקבל כקלט
+
+## לולאת do-while
+
+```c
+    int x;
+    do{
+        printf("choose a number bw 1 - 10");
+        scanf("%d", &x);
+    } while (x < 1 || x > 10);
+```
+
+## לולאת for
+
+```c
+  for (int i = 0; i < 10; ++i) {
+        printf("%d, ", i);
+    }
+
+    int x;
+    scanf("%d",&x);
+    for (int i = 0; i < x; ++i) {
+        printf("%d\n",x);
+    }
+```
+
+כל לולאת for אפשר לכתוב כלולאת while אך לא להיפך.
