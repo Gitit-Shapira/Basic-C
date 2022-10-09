@@ -142,3 +142,14 @@
     printf("%c\n", a != b ? 'y' : 'n');
     printf("%d", c);
 ```
+
+## לולאת while
+
+```c
+    int counter = 1;
+    while(counter <= 5){
+        printf("Hello, World!\n");
+        counter++;
+    }
+    printf("the end");
+```
