@@ -2,9 +2,10 @@
 
 [הקלטת השיעור](https://us06web.zoom.us/rec/share/9ufpzdj7_ry1FT2Y3Gf5nUeWpx1oSEQY7sQMM2KzEH4Pyi-WRH9RQ-umqai1kdU5.vLANHuESnDCn5JaS)
 
-# תנאים
+## תנאים
 
 '''c
+
     int num;
     printf("number?\n");
     scanf("%d", &num);
