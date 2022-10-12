@@ -59,6 +59,8 @@ _10:00 - 14:00_
 
 ## הקלטה של שיעור שלישי [כאן](https://us06web.zoom.us/rec/share/Fg4pDrAJhZK9hbY8VaPIObMZQSkdGD5QI-87Uj0iqOg20OkrI-e_0qIFKaajYMBx.WSZJy7BwrFRKDBgb)
 
+**יום שישי 14.10**
+פתרון תרגילים
 
 ## קישור קבוע לזום
 
