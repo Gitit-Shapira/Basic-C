@@ -164,3 +164,83 @@
 נשים לב שהשוואת מחרוזת מחזירה לנו מספר.
 אם המחרוזות זהות, יוחזר אפס. אם השמאלית גדולה יותר (כלומר נמצאת לפני הימנית מבחינה לקסיקוגרפית - מילונית) יוחזר מספר חיובי.
 אם המחרוזת הימנית גדולה מהשמאלית, יוחזר מספר שלילי.
+
+## מטריצות
+
+```c
+    int mat[3][4] = {{3,15,6}, {100}, {6,8654,3,2}};
+
+    for (int row = 0; row < 3; ++row) {
+        for (int j = 0; j < 4; ++j) {
+            printf("%5d",mat[row][j]);
+        }
+        putchar('\n');
+    }
+
+    int matrix[3][3];
+
+    for (int i = 0; i < 3; ++i) {
+        for (int j = 0; j < 3; ++j) {
+            printf("number:");
+            scanf("%d",&matrix[i][j]);
+        }
+    }
+```
+
+## פונקציות
+```c
+int sum1() {
+    int a = 4, b = 6;
+    return a + b;
+}
+
+int sum2() {
+    int a, b;
+    scanf("%d%d", &a, &b);
+    return a + b;
+}
+
+int sum3(int c) {
+    c = 3;
+    return c + 5;
+}
+
+float avg1(float x, int y) {
+    return (x + y) / 2;
+}
+
+float avg2() {
+    return (float) sum2() / 2;
+}
+
+void sum(int a, int b); // חתימה של פונקציה
+
+void changeA(int a[]) {
+    a[0] = 8;
+}
+
+int main() {
+    int x;
+    x = sum1();
+    printf("%d\n", x);
+    printf("%d\n", sum2());
+    printf("%d\n", sum3(8));
+    printf("%d\n", sum3(x));
+    printf("%.2f\n", avg1(12.4, x));
+    printf("%.2f\n", avg2());
+
+    int y = 6;
+    x = sum3(y); //  sum3(6)
+    printf("y = %d\n", y);
+    printf("x = %d\n", x);
+    int arr[3] = {1, 2, 3};
+    changeA(arr);
+    printf("%d", arr[0]);
+    sum(4, 6);
+
+    return 0;
+}
+```
+
+נשים לב לכמה דברים - הפונקציות מוגדרות מחוץ לmain.
+במידה והפונקציה מוגדרת מתחת לבלוק של הmain, נצטרך לבצע חתימה של הפונקציה מעל הmain, כמו שעשינו לפונקציה sum(int a, int b)
