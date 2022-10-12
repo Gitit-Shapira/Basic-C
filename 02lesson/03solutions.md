@@ -72,7 +72,7 @@
         if (num > max) {
             second = max;
             max = num;
-        } else if (num > second || max == second) { // the right for specific problem
+        } else if (num > second && num != max || max == second) { // the right for specific problem
             second = num;
         }
     }
