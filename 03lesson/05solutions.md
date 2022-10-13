@@ -171,7 +171,7 @@ int min() {
     printf("The minimum is %d", min());
 ```
 
-תרגיל 5
+## תרגיל 5
 מעל הmain
 ```c
 void bw(int a, int b) {
