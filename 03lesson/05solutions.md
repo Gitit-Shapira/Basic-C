@@ -170,3 +170,29 @@ int min() {
 ```c
     printf("The minimum is %d", min());
 ```
+
+תרגיל 5
+מעל הmain
+```c
+void bw(int a, int b) {
+    int start, end;
+    if (a < b) {
+        start = a;
+        end = b;
+    } else {
+        start = b;
+        end = a;
+    }
+    for (int i = start; i <= end; ++i) {
+        printf("%d, ", i);
+    }
+}
+```
+
+בתוך הmain
+```c
+    int x, y;
+    printf("Enter 2 nums\n");
+    scanf("%d%d", &x, &y);
+    bw(x, y);
+```
