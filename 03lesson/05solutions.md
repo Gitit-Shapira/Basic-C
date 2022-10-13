@@ -218,3 +218,27 @@ int a_pow_b(int a, int b) {
     scanf("%d%d", &x, &y);
     printf("%d pow %d is %d", x, y, a_pow_b(x, y));
 ```
+
+## תרגיל 7
+
+מעל הmain
+
+```c
+void mult(int num) {
+    for (int i = 1; i <= num; ++i) {
+        for (int j = 1; j <= num; ++j) {
+            printf("%4d", i * j);
+        }
+        putchar('\n');
+    }
+}
+```
+
+בתוך הmain
+
+```c
+    int num;
+    printf("Enter a number\n");
+    scanf("%d", &num);
+    mult(num);
+```
