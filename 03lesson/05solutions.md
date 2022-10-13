@@ -196,3 +196,25 @@ void bw(int a, int b) {
     scanf("%d%d", &x, &y);
     bw(x, y);
 ```
+
+## תרגיל 6
+מעל הmain
+
+```c
+int a_pow_b(int a, int b) {
+    int num = 1;
+    for (int i = 0; i < b; ++i) {
+        num *= a;
+    }
+    return num;
+}
+```
+
+בתוך הmain
+
+```c
+    int x, y;
+    printf("Enter 2 nums\n");
+    scanf("%d%d", &x, &y);
+    printf("%d pow %d is %d", x, y, a_pow_b(x, y));
+```
