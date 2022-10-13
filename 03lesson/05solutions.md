@@ -132,3 +132,25 @@ int full = 0, ppl, row;
     printf("\n********************\n");
     printf("The auditorium is full");
 ```
+
+## תרגיל 3
+
+מעל הmain
+```c
+int max(int a, int b, int c) {
+    if (a > b && a > c)
+        return a;
+    if (b > a && b > c)
+        return b;
+    return c;
+}
+```
+
+בתוך הmain
+
+```c
+    int x, y, z;
+    printf("Enter 3 nums\n");
+    scanf("%d%d%d", &x, &y, &z);
+    printf("The max num is %d", max(x, y, z));
+```
