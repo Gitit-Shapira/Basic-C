@@ -154,3 +154,19 @@ int max(int a, int b, int c) {
     scanf("%d%d%d", &x, &y, &z);
     printf("The max num is %d", max(x, y, z));
 ```
+
+## תרגיל 4
+מעל הmain
+```c
+int min() {
+    int a, b;
+    printf("Enter 2 nums\n");
+    scanf("%d%d", &a, &b);
+    return a < b ? a : b;
+}
+```
+
+בתוך הmain
+```c
+    printf("The minimum is %d", min());
+```
