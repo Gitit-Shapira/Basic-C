@@ -65,6 +65,8 @@ _10:00 - 14:00_
 
 פתרון תרגילים
 
+## הקלטה של שיעור רביעי [כאן](https://us06web.zoom.us/rec/share/uXw54tYBjndKiWHejzespDQ6G9C362a02oG3d3WZf-9YdQ3u2LI4Gzm2joA-Hfc3.SzOhX4cyAmbNyOq4)
+
 ## קישור קבוע לזום
 
 https://us06web.zoom.us/j/89677026038?pwd=dTdJSXVoOUxyR09jQU9xQTlVT3d1Zz09
