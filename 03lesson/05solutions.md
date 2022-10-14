@@ -242,3 +242,124 @@ void mult(int num) {
     scanf("%d", &num);
     mult(num);
 ```
+
+
+## תרגיל 8
+
+מעל הmain
+
+```c
+void print_board(char board[3][3]) {
+    for (int i = 0; i < 3; ++i) {
+        for (int j = 0; j < 3; ++j) {
+            putchar(board[i][j]);
+            printf("%s", " | ");
+        }
+        putchar('\n');
+
+    }
+}
+
+int place_move(char board[3][3], char move, char turn) {
+    for (int i = 0; i < 3; ++i) {
+        for (int j = 0; j < 3; ++j) {
+            if (move == board[i][j]) {
+                board[i][j] = turn;
+                return 1;
+            }
+        }
+    }
+    return 0;
+}
+
+char change_turn(char turn) {
+    if (turn == 'X')
+        return 'O';
+    else
+        return 'X';
+}
+
+int legal(int move) {
+    if (move < 1 || move > 9) {
+        printf("wrong move!\n");
+        return 0;
+    }
+    return 1;
+}
+
+int victory(char board[3][3]) {
+    char sign1, sign2, sign_row, sign_col;
+    int sum_row = 0, sum_col = 0, sum1 = 0, sum2 = 0;
+
+    // checks lines && col
+    for (int i = 0; i < 3; ++i) {
+        sign_row = board[i][0];
+        sign_col = board[0][i];
+        sum_row = 0;
+        sum_col = 0;
+        for (int j = 0; j < 3; ++j) {
+            if (board[i][j] == sign_row)
+                sum_row++;
+            if (board[j][i] == sign_col)
+                sum_col++;
+        }
+        if (sum_col == 3 || sum_row == 3)
+            return 1;
+
+    }
+
+    sign1 = board[0][0];
+    sign2 = board[0][2];
+    sum1 = 0, sum2 = 0;
+    for (int i = 0; i < 3; ++i) {
+        for (int j = 0; j < 3; ++j) {
+            if (i == j) {
+                if (board[j][i] == sign1)
+                    sum1++;
+            }
+            if (i + j == 2) {
+                if (board[j][i] == sign2)
+                    sum2++;
+            }
+        }
+    }
+    if (sum1 == 3 || sum2 == 3)
+        return 1;
+
+    return 0;
+}
+```
+
+בתוך הmain
+
+```c
+    char board[3][3] = {'1', '2', '3', '4', '5', '6', '7', '8', '9'};
+    char move, turn = 'X';
+    int cell, ends = 0;
+    while (1) {
+        print_board(board);
+        printf("It's %c turn\n", turn);
+        printf("What's your move?\n");
+        scanf("%d", &cell);
+        if (legal(cell))
+            move = cell + '0';
+        else
+            continue;
+
+        if (place_move(board, move, turn)) {
+            if (victory(board)) {
+                print_board(board);
+                printf("VICTORY to %c!!\n", turn);
+                break;
+            }
+            turn = change_turn(turn);
+            ends++;
+        }
+        if (ends == 9) { // the board is full
+            print_board(board);
+            printf("No one wins\n");
+            break;
+        }
+    }
+
+```
