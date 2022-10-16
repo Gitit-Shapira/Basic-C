@@ -4,6 +4,10 @@
 ## התקנת visual studio
 סרטון הסבר איך להתקין סביבת עבודה
 בקישור [כאן](https://youtu.be/pakQGkmGDRE)
+תוסיפו למעלה בקוד את השורה הבאה:
+```c
+#define _CRT_SECURE_NO_WARNINGS
+```
 
 ## התקנת Clion
 סרטון הסבר איך להתקין סביבת עבודה בקישור [כאן](https://us06web.zoom.us/rec/play/nrfjpk5Nbl-aEyg5_PawoozTyECtZi17Z0SH_vIk4x6RHkCXe1yqAtSD046nKTgHWJTOHTmR7w7oMBL4.f8aJ32AxfU1UMVn9?continueMode=true)
