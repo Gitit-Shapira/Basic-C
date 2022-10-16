@@ -4,6 +4,8 @@
 ## התקנת visual studio
 סרטון הסבר איך להתקין סביבת עבודה
 בקישור [כאן](https://youtu.be/pakQGkmGDRE)
+,
+
 תוסיפו למעלה בקוד את השורה הבאה:
 ```c
 #define _CRT_SECURE_NO_WARNINGS
