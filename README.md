@@ -49,7 +49,7 @@ _10:00 - 14:00_
 , תרגילים
 , לולאות
 , תרגילים
-## הקלטה של שיעור שני [כאן](https://us06web.zoom.us/rec/share/9ufpzdj7_ry1FT2Y3Gf5nUeWpx1oSEQY7sQMM2KzEH4Pyi-WRH9RQ-umqai1kdU5.vLANHuESnDCn5JaS)
+## הקלטה של שיעור שני [כאן](https://youtu.be/TEKb4rtz-Do)
 
 , 
 
