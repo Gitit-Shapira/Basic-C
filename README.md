@@ -63,7 +63,7 @@ _10:00 - 14:00_
 , פונקציות
 , תרגילים
 
-## הקלטה של שיעור שלישי [כאן](https://us06web.zoom.us/rec/share/Fg4pDrAJhZK9hbY8VaPIObMZQSkdGD5QI-87Uj0iqOg20OkrI-e_0qIFKaajYMBx.WSZJy7BwrFRKDBgb)
+## הקלטה של שיעור שלישי [כאן](https://youtu.be/IwARfDYmbbw)
 
 **יום שישי 14.10**
 
