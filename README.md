@@ -36,7 +36,7 @@ _10:00 - 14:00_
 , קלט פלט
 , תרגילים
 
-## הקלטה של שיעור ראשון [כאן](https://us06web.zoom.us/rec/share/YlksLvfJftbnM0SAu9dVM0_lrSU3-Jeu7OwG3fB3Uq95ZmM63HLDNk-v5JG1AMcW.xy1kPOMdRpatJgHJ)
+## הקלטה של שיעור ראשון [כאן](https://youtu.be/NWu34ARHn_Y)
  
 
  
