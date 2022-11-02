@@ -12,7 +12,7 @@
 ```
 
 ## התקנת Clion
-סרטון הסבר איך להתקין סביבת עבודה בקישור [כאן](https://us06web.zoom.us/rec/play/nrfjpk5Nbl-aEyg5_PawoozTyECtZi17Z0SH_vIk4x6RHkCXe1yqAtSD046nKTgHWJTOHTmR7w7oMBL4.f8aJ32AxfU1UMVn9?continueMode=true)
+סרטון הסבר איך להתקין סביבת עבודה בקישור [כאן](https://youtu.be/AwklQn10C-8)
 
 ## הקובץ הראשון שלכם
 שימו לב שיש כאן את הקובץ 
